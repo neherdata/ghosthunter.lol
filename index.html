@@ -12,6 +12,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!-- <meta name="theme-color" content="#000000" /> -->
 
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.ghosthunter.lol"]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "//matomo.neher.casa/";
+      _paq.push(['setTrackerUrl', u + 'matomo.php']);
+      _paq.push(['setSiteId', '15']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
+  <noscript>
+    <p><img referrerpolicy="no-referrer-when-downgrade" src="//matomo.neher.casa/matomo.php?idsite=15&amp;rec=1"
+        style="border:0;" alt="" /></p>
+  </noscript>
+  <!-- End Matomo Code -->
+
+
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
@@ -127,8 +150,8 @@
 
   <div id="footer">
     <p align="center">© 2024 <a href="https://www.neherdata.com/">Neher Data Systems</a></p>
-    <p align="center"><a href="https://tos.neherdata.com/">Terms of Service</a> | <a
-        href="https://privacy.ghosthunter.neherdata.com/">Privacy
+    <p align="center"><a href="https://tos.ghosthunter.lol/">Terms of Service</a> | <a
+        href="https://privacy.ghosthunter.lol/">Privacy
         Policy</a>
     </p>
   </div>
